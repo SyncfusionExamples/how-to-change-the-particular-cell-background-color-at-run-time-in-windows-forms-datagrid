@@ -1,8 +1,9 @@
-# How to change the particular cell background color at run time in Windows Forms DataGrid(SfDataGrid)	
+# How to change the particular cell background color at run time in Windows Forms DataGrid?
 ## About the sample
-This example illustrates to change the particular cell background color at run time in Windows Forms DataGrid(SfDataGrid)
+This example illustrates to change the particular cell background color at run time in Windows Forms DataGrid.
 
-SfDataGrid provides the support to customize the background color of a single cell at run time. You can achieve this by maintaining a Dictionary with RowColumnIndex of the cell as Key and the background color as value. Based on the value in the dictionary, QueryCellStyle event set the background color of the cell. 
+[WinForms DataGrid](https://www.syncfusion.com/winforms-ui-controls/datagrid) (SfDataGrid) provides the support to customize the background color of a single cell at run time. You can achieve this by maintaining a Dictionary with RowColumnIndex of the cell as Key and the background color as value. Based on the value in the dictionary, [QueryCellStyle](https://help.syncfusion.com/cr/windowsforms/Syncfusion.WinForms.DataGrid.SfDataGrid.html#Syncfusion_WinForms_DataGrid_SfDataGrid_QueryCellStyle) event set the background color of the cell. 
+
 ```c#
  Dictionary<RowColumnIndex, Color> colorDict = new Dictionary<RowColumnIndex, Color>();
 
